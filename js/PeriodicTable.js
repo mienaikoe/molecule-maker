@@ -575,7 +575,7 @@ PeriodicTable.ELEMENTS = {
 					"position": 2,
 					"name": "",
 					"number": "",
-					"small": "57-71"
+					"small": "57 - 71"
 				},
 				{
 					"group": "Element Transition d",
@@ -740,7 +740,7 @@ PeriodicTable.ELEMENTS = {
 					"position": 2,
 					"name": "",
 					"number": "",
-					"small": "89-103"
+					"small": "89 - 103"
 				},
 				{
 					"group": "Element Transition d",
