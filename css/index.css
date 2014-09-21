@@ -1,0 +1,58 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\000034}}
+#periodic_table {
+  width: 828px;
+  margin: 0px auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\000037}}
+  #periodic_table .section {
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\000039}}
+    #periodic_table .section.table {
+      margin-bottom: 54px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000316}}
+  #periodic_table .period {
+    position: relative;
+    height: 54px;
+    width: 828px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000321}}
+  #periodic_table .element {
+    width: 42px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 1px;
+    position: absolute;
+    cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000328}}
+    #periodic_table .element:hover {
+      background-color: #ddd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000331}}
+    #periodic_table .element.selected {
+      background-color: #efe; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000334}}
+    #periodic_table .element div {
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000337}}
+    #periodic_table .element .symbol {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 3px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000342}}
+    #periodic_table .element .small {
+      font-size: 9px;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000347}}
+    #periodic_table .element.featured {
+      width: 78px;
+      height: 94px;
+      padding: 6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000351}}
+      #periodic_table .element.featured div {
+        text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000354}}
+      #periodic_table .element.featured .symbol {
+        font-size: 32px;
+        font-weight: bold;
+        margin: 7px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000359}}
+      #periodic_table .element.featured .small {
+        font-size: 14px; }

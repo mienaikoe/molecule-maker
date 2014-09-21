@@ -1,0 +1,65 @@
+$ELEMENT_WIDTH: 46px;
+$ELEMENT_HEIGHT: 54px;
+
+#periodic_table{
+    width: $ELEMENT_WIDTH * 18;
+    margin: 0px auto;
+    .section{
+        position: relative;
+        &.table{
+            margin-bottom: $ELEMENT_HEIGHT;
+        }
+        &.radioactive{
+            
+        }
+    }
+    .period{
+        position: relative;
+        height: $ELEMENT_HEIGHT;
+        width: $ELEMENT_WIDTH * 18;
+    }
+    .element{
+        width: $ELEMENT_WIDTH - 4px;
+        height: $ELEMENT_HEIGHT - 4px;
+        border: 1px solid black;
+        padding: 1px;
+        position: absolute;
+        cursor: pointer;
+        &:hover{
+            background-color: #ddd;
+        }
+        &.selected{
+            background-color: #efe;
+        }
+        div{
+            text-align: center;
+        }
+        .symbol{
+            font-size: 16px;
+            font-weight: bold;
+            margin: 3px 0px;
+        }
+        .small{
+            font-size: 9px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        &.featured{
+            width: ($ELEMENT_WIDTH * 2) - 14px;
+            height: ($ELEMENT_HEIGHT * 2) - 14px;
+            padding: 6px;
+            div{
+                text-align: center;
+            }
+            .symbol{
+                font-size: 32px;
+                font-weight: bold;
+                margin: 7px 0px;
+            }
+            .small{
+                font-size: 14px;
+            }
+        }
+    }
+}
+

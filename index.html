@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Molecule Maker</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <!-- js -->
+        <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+        <script type="text/javascript" src="js/PeriodicTable.js"></script>
+        <script type="text/javascript" src="js/Element.js"></script>
+        <script type="text/javascript" src="js/MoleculeWorkspace.js"></script>
+        <!-- css -->
+        <link rel="stylesheet" href="css/index.css"/>
+    </head>
+    <body>
+        <div id="periodic_table"></div>
+        <div id="molecule_workspace"></div>
+        <script type="text/javascript">
+            var periodic_table = new PeriodicTable($("#periodic_table"));
+            new MoleculeWorkspace($("#molecule_workspace"),periodic_table);
+        </script>
+    </body>
+</html>
