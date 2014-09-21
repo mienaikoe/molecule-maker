@@ -10,16 +10,24 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <!-- js -->
+        <script type="text/javascript" src="js/polyfill.js"></script>
         <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
         <script type="text/javascript" src="js/PeriodicTable.js"></script>
         <script type="text/javascript" src="js/Element.js"></script>
         <script type="text/javascript" src="js/MoleculeWorkspace.js"></script>
         <!-- css -->
+        <link rel="stylesheet" href="fonts/kiroregular/stylesheet.css"/>
         <link rel="stylesheet" href="css/index.css"/>
     </head>
     <body>
-        <div id="periodic_table"></div>
-        <div id="molecule_workspace"></div>
+        <div class="centering">
+            <div id="periodic_table">
+                <h2>Periodic Table of Elements</h2>
+            </div>
+            <div id="molecule_workspace">
+                <h2>Molecule Builder</h2>
+            </div>
+        </div>
         <script type="text/javascript">
             var periodic_table = new PeriodicTable($("#periodic_table"));
             new MoleculeWorkspace($("#molecule_workspace"),periodic_table);
