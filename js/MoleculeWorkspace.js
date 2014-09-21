@@ -15,10 +15,14 @@ function MoleculeWorkspace(container, periodicTable){
 	}.bind(this));
 	
 	this.elementalDivision = $("<div/>",{"class":"division","id":"elementalDivision"}).appendTo(this.container);
+	
 	this.molecularDivision = $("<div/>",{"class":"division","id":"molecularDivision"}).appendTo(this.container);
 	var totalMolSection = $("<div/>",{"class":"stat"}).appendTo(this.molecularDivision);
 	$("<label/>",{text:"Total Molecular Weight"}).appendTo(totalMolSection);
 	this.totalMolOutput = $("<div/>",{"class":"output"}).appendTo(totalMolSection);
+	$("<button/>",{"text":"Reset"}).click(function(ev){
+		self.reset();
+	}).appendTo(this.molecularDivision);
 };
 
 MoleculeWorkspace.prototype = {
@@ -41,5 +45,10 @@ MoleculeWorkspace.prototype = {
 			}
 		}
 		this.totalMolOutput.html(total+" g/mol");
+	},
+	reset: function(){
+		this.elements = {};
+		this.elementalDivision.html("");
+		this.totalMolOutput.html("");
 	}
 };
