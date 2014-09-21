@@ -42,7 +42,7 @@ PeriodicTable.ELEMENTS = {
 			"wiki": "http://en.wikipedia.org/wiki/Period%201%20element",
 			"elements": [
 				{
-					"group": "",
+					"group": "Element Nonmetal p",
 					"position": 0,
 					"name": "Hydrogen",
 					"number": 1,
@@ -571,11 +571,12 @@ PeriodicTable.ELEMENTS = {
 					"electrons": [2, 8, 18, 18, 8, 2]
 				},
 				{
-					"group": "Lanthanoid InnerBorder BlueLeft BlueTop BlueRight",
+					"group": "Reference Lanthanoid InnerBorder BlueLeft BlueTop BlueRight",
 					"position": 2,
-					"name": "",
-					"number": "",
-					"small": "57 - 71"
+					"name": " ",
+					"number": " ",
+					"molar": " ",
+					"small": "Lan."
 				},
 				{
 					"group": "Element Transition d",
@@ -736,11 +737,12 @@ PeriodicTable.ELEMENTS = {
 					"electrons": [2, 8, 18, 32, 18, 8, 2]
 				},
 				{
-					"group": "Actinoid InnerBorder BlueLeft BlueRight",
+					"group": "Reference Actinoid InnerBorder BlueLeft BlueRight",
 					"position": 2,
-					"name": "",
-					"number": "",
-					"small": "89 - 103"
+					"name": " ",
+					"molar": " ",
+					"number": " ",
+					"small": "Act."
 				},
 				{
 					"group": "Element Transition d",

@@ -23,84 +23,119 @@ body {
     height: 52px;
     width: 828px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000330}}
-  #periodic_table .element {
+  #periodic_table .element, #periodic_table .lanthanoid, #periodic_table .actinoid {
     position: absolute;
     cursor: pointer; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000333}}
-    #periodic_table .element:hover {
-      background-color: #ddd; }
+    #periodic_table .element:hover, #periodic_table .lanthanoid:hover, #periodic_table .actinoid:hover {
+      background-color: #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000339}}
-.element {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000341}}
+.element, .reference {
   width: 42px;
   height: 46px;
   border: 1px solid black;
   padding: 2px 1px;
   display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000345}}
-  .element div {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000347}}
+  .element div, .reference div {
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000348}}
-  .element .symbol {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000350}}
+  .element .symbol, .reference .symbol {
     font-size: 16px;
     font-weight: bold;
     margin: 2px 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000353}}
-  .element .small {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000355}}
+  .element .small, .reference .small {
     font-size: 9px;
     overflow: hidden;
-    text-overflow: ellipsis; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000358}}
-  .element.featured {
+    text-overflow: ellipsis;
+    white-space: pre; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000361}}
+  .element.featured, .reference.featured {
     width: 78px;
     height: 90px;
     padding: 6px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000362}}
-    .element.featured div {
-      text-align: center; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000365}}
-    .element.featured .symbol {
+    .element.featured div, .reference.featured div {
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000368}}
+    .element.featured .symbol, .reference.featured .symbol {
       font-size: 32px;
       font-weight: bold;
       margin: 7px 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000370}}
-    .element.featured .small {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000373}}
+    .element.featured .small, .reference.featured .small {
       font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000377}}
+  .element.lanthanoid, .reference.lanthanoid {
+    background-color: #fec; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000380}}
+  .element.actinoid, .reference.actinoid {
+    background-color: #fdb; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000383}}
+  .element.transition, .reference.transition {
+    background-color: #eee; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000386}}
+  .element.poor, .reference.poor {
+    background-color: #def; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000389}}
+  .element.alkali, .reference.alkali {
+    background-color: #fdf; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000392}}
+  .element.alkaline, .reference.alkaline {
+    background-color: #edf; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000395}}
+  .element.metalloid, .reference.metalloid {
+    background-color: #dfe; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000398}}
+  .element.halogen, .reference.halogen {
+    background-color: #efd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\00003101}}
+  .element.noble, .reference.noble {
+    background-color: #ffd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\00003104}}
+  .element.nonmetal, .reference.nonmetal {
+    background-color: #ddf; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\00003107}}
+  .element.reference, .reference.reference {
+    background-color: #fff;
+    border: 1px dashed black; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\00003118}}
 #molecule_workspace .division {
   display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\00003120}}
   #molecule_workspace .division#elementalDivision {
     width: 70%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\00003123}}
   #molecule_workspace .division#molecularDivision {
     width: 30%;
     text-align: right;
     vertical-align: top; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\00003127}}
     #molecule_workspace .division#molecularDivision label {
       font-size: 14px;
       font-style: italic; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\00003131}}
     #molecule_workspace .division#molecularDivision .output {
       font-size: 13px;
       font-weight: bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\00003137}}
 #molecule_workspace .elementSection {
   display: inline-block;
   margin-right: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\00003140}}
   #molecule_workspace .elementSection .statPart {
     display: inline-block;
     margin-left: 5px;
     padding-top: 6px;
     vertical-align: top;
     width: 32px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\00003146}}
     #molecule_workspace .elementSection .statPart .percent {
       font-size: 12px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jesse\/Documents\/GitHub\/molecule-maker\/scss\/index\.scss}line{font-family:\00003149}}
     #molecule_workspace .elementSection .statPart .count {
       width: 100%;
       font-weight: bold; }
