@@ -8,7 +8,7 @@ function MoleculeWorkspace(container, periodicTable){
 		element.container.clone().css("left","").appendTo(elementSection);
 		var statPart = $("<div/>",{"class":"statPart"}).appendTo(elementSection);
 		var percenter = $("<div/>",{"class":"percent"}).appendTo(statPart);
-		$("<input/>",{"class":"count","type":"number", "value": 1}).change(function(ev){
+		$("<input/>",{"class":"count","type":"number", "value": 1}).on("keyup mouseup",function(ev){
 			self.updateWeight(element, this.value, percenter);
 		}).appendTo(statPart);
 		this.updateWeight(element, 1, percenter);
